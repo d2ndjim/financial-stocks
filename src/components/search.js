@@ -1,10 +1,29 @@
-import React from "react";
+import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { selectSearchTerm, setSearchTerm } from '../redux/search/searchSlice';
+
+const searchIconUrl = 'https://static-assets.codecademy.com/Courses/Learn-Redux/Recipes-App/icons/search.svg';
 
 const Search = () => {
-  return (
-    <>
-    </>
-  )
-}
+  const dispatch = useDispatch();
+  const searchTerm = useSelector(selectSearchTerm);
 
-export default Search
+  const onSearchChangeHandler = (e) => {
+    dispatch(setSearchTerm(e.target.value));
+  };
+
+  return (
+    <div id="search-container">
+      <img id="search-icon" alt="" src={searchIconUrl} />
+      <input
+        id="search"
+        type="text"
+        value={searchTerm}
+        onChange={onSearchChangeHandler}
+        placeholder="Search recipes"
+      />
+    </div>
+  );
+};
+
+export default Search;

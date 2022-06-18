@@ -1,7 +1,7 @@
-import { configureStore } from "@reduxjs/toolkit/dist/configureStore";
+import { configureStore } from '@reduxjs/toolkit/';
 
-import searchReducer from './search/searchSlice'
-import companyReducer from './stocks/companySlice'
+import searchReducer from './search/searchSlice';
+import companyReducer from './stocks/companySlice';
 
 const store = configureStore({
   reducer: {
@@ -10,4 +10,4 @@ const store = configureStore({
   },
 });
 
-export default store
+export default store;
