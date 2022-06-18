@@ -20,7 +20,7 @@ const Search = () => {
         type="text"
         value={searchTerm}
         onChange={onSearchChangeHandler}
-        placeholder="Search recipes"
+        placeholder="Search Company"
       />
     </div>
   );
