@@ -1,0 +1,27 @@
+#search-container {
+  padding: 33px 36px 0px 36px;
+  position: relative;
+}
+
+#search {
+  width: 100%;
+  padding: 9px 25px 9px 40px;
+  border-radius: 16.5px;
+  border: solid 1px #141c3a;
+  background-color: #ffffff;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#search-icon {
+  opacity: 0.5;
+  position: absolute;
+  top: 42px;
+  left: 53px;
+}
+
+#search::placeholder {
+  font-size: 14px;
+  font-weight: bold;
+  color: #8a8e9d;
+}

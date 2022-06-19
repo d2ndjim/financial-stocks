@@ -4,7 +4,6 @@ import { Routes, Route } from 'react-router-dom';
 import { loadCompanies } from './redux/stocks/companySlice';
 import Companies from './features/company/company';
 import Profile from './features/profile/profile';
-import './App.css';
 
 function App() {
   const dispatch = useDispatch();
