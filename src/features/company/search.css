@@ -17,6 +17,7 @@
   opacity: 0.5;
   position: absolute;
   top: 42px;
+  padding: 8px;
   left: 53px;
 }
 
@@ -24,4 +25,5 @@
   font-size: 14px;
   font-weight: bold;
   color: #8a8e9d;
+  padding: 10px;
 }
