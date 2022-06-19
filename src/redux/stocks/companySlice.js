@@ -22,6 +22,7 @@ const options = {
 
 const companySlice = createSlice(options);
 export const selectCompany = (state) => state.company;
+
 export const selectFilteredCompany = (state) => {
   const allCompanies = selectCompany(state);
   const searchTerm = selectSearchTerm(state);
