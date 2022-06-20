@@ -9,8 +9,8 @@ const Company = () => {
     <>
       <div className="grid gap-4 grid-cols-3 w-4/5 m-auto">
         {companies.map((company) => (
-          <Link to={`/details/${company.ticker}`} key={company.ticker}>
-            <div>
+          <Link to={`/profiles/${company.ticker}`} key={company.ticker}>
+            <div className="bg-[#2D4573] p-10 text-white font-bold h-full rounded-lg hover:scale-95">
               <p>{company.companyName}</p>
               <p>{company.ticker}</p>
               <p>{company.changes}</p>
