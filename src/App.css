@@ -1,3 +1,29 @@
 body {
   background-color: #4369B2
 }
+
+footer {
+  height: 40px;
+  background-color: #2d4573;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer {
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 512px) {
+  footer {
+    justify-content: center;
+  }
+
+  .footer {
+    display: none;
+  }
+}

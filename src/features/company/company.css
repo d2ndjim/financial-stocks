@@ -29,7 +29,28 @@
   padding: 10px;
 }
 
+.header {
+  width: 100%;
+}
 .header-img {
   width: 100px;
   height: 50px;
+}
+
+/* .icon {
+  border-radius: 20%;
+  background-color: #4369B2;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+} */
+
+.icon {
+  width: 10px;
+  height: 10px;
+  background: skyblue;
+  border-radius: 50%;
+  margin: 8px;
 }
