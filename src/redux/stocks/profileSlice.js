@@ -2,7 +2,9 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 
 export const loadProfile = createAsyncThunk(
   'profile/loadProfile', async (ticker) => {
-    const response = await fetch(`https://financialmodelingprep.com/api/v3/profile/${ticker}?apikey=0df017d8fea3563b39ea876e803586c5`);
+    const response = await fetch(
+      `https://financialmodelingprep.com/api/v3/profile/${ticker}?apikey=8e838d336e289935c357eb945be96f5a`,
+    );
     const data = await response.json();
     const profile = data.map((profile) => ({
       name: profile.companyName,

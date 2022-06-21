@@ -11,11 +11,18 @@ const Company = () => {
         {companies.map((company) => (
           <Link to={`/profiles/${company.ticker}`} key={company.ticker}>
             <div className="bg-[#2D4573] p-10 text-white font-bold h-full rounded-lg hover:scale-95">
-              <p>{company.companyName}</p>
-              <p>{company.ticker}</p>
-              <p>{company.changes}</p>
-              <p>{company.price}</p>
-              <p>{company.changesPercentage}</p>
+              <p className="font-bold italic text-base">
+                {company.companyName}
+              </p>
+              <p className="text-sm text-slate-400">{company.ticker}</p>
+              <p className="text-[#6AC66B]">{Number(company.changes).toFixed(2)}</p>
+              <p>
+                $
+                {company.price}
+              </p>
+              <h1 className="animate-ping rounded-full opacity-95 absolute inline-flex text-sky-400">
+                #
+              </h1>
             </div>
           </Link>
         ))}

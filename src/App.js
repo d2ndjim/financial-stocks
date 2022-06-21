@@ -13,7 +13,7 @@ function App() {
   }, [dispatch]);
 
   return (
-    <div className="App">
+    <div className="bg-[#4369B2]">
       <Routes>
         <Route index path="/" element={<Companies />} />
         <Route path="/profiles/:ticker" element={<Profile />} />

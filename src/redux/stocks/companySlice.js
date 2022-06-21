@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { selectSearchTerm } from '../search/searchSlice';
 
-const URL = 'https://financialmodelingprep.com/api/v3/actives?apikey=0df017d8fea3563b39ea876e803586c5';
+const URL = 'https://financialmodelingprep.com/api/v3/actives?apikey=8e838d336e289935c357eb945be96f5a';
 
 export const loadCompanies = createAsyncThunk(
   'stock/loadCompanies', async () => {
