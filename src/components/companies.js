@@ -15,9 +15,15 @@ const Company = () => {
                 {company.companyName}
               </p>
               <p className="text-sm text-slate-400">{company.ticker}</p>
-              <p className="text-[#6AC66B]">
-                {Number(company.changes).toFixed(2)}
-              </p>
+              {Number(company.changes) > 0 ? (
+                <p className="text-[#6AC66B]">
+                  {Number(company.changes).toFixed(2)}
+                </p>
+              ) : (
+                <p className="text-[#C60512]">
+                  {Number(company.changes).toFixed(2)}
+                </p>
+              )}
               <p>
                 $
                 {company.price}
