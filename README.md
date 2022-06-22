@@ -6,7 +6,7 @@
 
 ### To see deployed live version, Click links below
 
-### [Netlify]()
+### [LIVE VERSION](http://financial-stocks.herokuapp.com/)
 
 
 
