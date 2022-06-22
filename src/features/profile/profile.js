@@ -25,9 +25,9 @@ const Profile = () => {
           </button>
         </div>
       </Link>
-      <div className="m-auto bg-[#2D4573] text-white w-4/5 rounded-lg">
+      <div className="w-full md:m-auto bg-[#2D4573] text-white md:w-4/5 rounded-lg">
         {profiles.map((profile) => (
-          <div key={profile.name} className="m-20">
+          <div key={profile.name} className="mt-10 mr-10 ml-10 mb-20 md:m-20">
             <div className="flex flex-col bg-[#2D4573] mb-10 md:flex md:flex-row md: bg-[#4369B2] md:justify-center md:p-10">
               <div className="bg-[#2D4573] md:bg-[#4369B2] self-center">
                 <img src={profile.img} alt={profile.name} />
@@ -70,11 +70,11 @@ const Profile = () => {
               <p>Sector:</p>
               <p>{profile.sector}</p>
             </div>
-            <div className="flex flex-col gap-2 p-4 bg-[#4369B2] rounded-lg md:grid md:grid-cols-2">
+            <div className="flex flex-col flex-wrap gap-2 p-4 bg-[#4369B2] rounded-lg md:grid md:grid-cols-2">
               <p>Website:</p>
               <p>{profile.website}</p>
             </div>
-            <div className="grid grid-cols-2 p-4">
+            <div className="flex justify-between md:grid md:grid-cols-2 p-4">
               <p>Location:</p>
               <p>{profile.country}</p>
             </div>
