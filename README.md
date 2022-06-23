@@ -10,7 +10,7 @@
 
 
 
-### Features implemented so far:
+### Features implemented so far are:
 
 - Responsive HTML page
 
