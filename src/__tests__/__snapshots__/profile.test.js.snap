@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile test renders Profile 1`] = `
+Array [
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <div>
+      <button
+        className="mt-10 ml-10 text-white px-4 py-2 border  border-black rounded bg-[#2D4573] hover:bg-[#4369B2]"
+        type="button"
+      >
+        Back
+      </button>
+    </div>
+  </a>,
+  <div
+    className="w-full md:m-auto bg-[#2D4573] text-white md:w-4/5 rounded-lg"
+  />,
+  <footer
+    className="text-white"
+  >
+    <h2
+      className="footer ml-6 font-bold"
+    >
+      © 2022 All rights reserved.
+    </h2>
+    <div
+      className="mr-6 grid grid-cols-3 gap-x-2.5"
+    >
+      <a
+        className="hover:text-sky-400"
+        href="https://github.com/d2ndjim/financial-stocks"
+      >
+        Source
+      </a>
+      <a
+        className="hover:text-sky-400"
+        href="https://site.financialmodelingprep.com/developer/docs/"
+      >
+        API
+      </a>
+      <a
+        className="hover:text-sky-400"
+        href="https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)"
+      >
+        Design
+      </a>
+    </div>
+  </footer>,
+]
+`;
