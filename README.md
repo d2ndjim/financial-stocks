@@ -6,7 +6,7 @@
 
 ### To see deployed live version, Click link below
 
-### [LIVE VERSION](http://financial-stocks.herokuapp.com/)
+### [LIVE VERSION](https://financial-stocks.vercel.app/)
 
 
 
