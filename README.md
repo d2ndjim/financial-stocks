@@ -3,6 +3,7 @@
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![image](https://user-images.githubusercontent.com/73438276/198054789-4134dfa3-2e5b-405b-b57c-dc696bffc876.png)
 
 ### To see deployed live version, Click link below
 
